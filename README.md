@@ -74,3 +74,6 @@ The easiest way is to install the apache Symfony pack by executing the following
 ## Main Tasks
 
 To do ...
+
+## to install asset 
+  "composer require symfony/asset"
