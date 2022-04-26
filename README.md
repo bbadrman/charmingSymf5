@@ -77,3 +77,64 @@ To do ...
 
 ## to install asset 
   "composer require symfony/asset"
+  **************************************************
+
+  # Tutoriels, Amitié & Symfony5
+
+Eh bien salut! Ce référentiel contient le code et le script
+pour les [Tutoriels Symfony5](https://symfonycasts.com/tracks/symfony) sur SymfonyCasts.
+
+## Installer
+
+Si vous venez de télécharger le code, félicitations !!
+
+Pour le faire fonctionner, suivez ces étapes :
+
+**Télécharger les dépendances de Composer**
+
+Assurez-vous que [Composer est installé](https://getcomposer.org/download/)
+puis exécutez:
+
+```
+installation du compositeur
+```
+
+Vous devrez peut-être également exécuter `php composer.phar install`, selon
+sur la façon dont vous avez installé Composer.
+
+**Démarrer le serveur Web Symfony**
+
+Vous pouvez utiliser Nginx ou Apache, mais le serveur Web local de Symfony
+fonctionne encore mieux.
+
+Pour installer le serveur web local Symfony, suivez
+Instructions "Télécharger le client Symfony" trouvées
+ici : https://symfony.com/download - il vous suffit de le faire
+une fois sur votre système.
+
+Ensuite, pour démarrer le serveur Web, ouvrez un terminal, déplacez-vous dans le
+projet et exécutez :
+
+```
+Symfony servir
+```
+
+(Si c'est la première fois que vous utilisez cette commande, vous pouvez voir un
+erreur que vous devez d'abord exécuter `symfony server:ca:install`).
+
+Maintenant, consultez le site à `https://localhost:8000`
+
+Amusez-vous!
+
+## Vous avez des idées, des commentaires ou un problème ?
+
+Si vous avez des suggestions ou des questions, n'hésitez pas à
+ouvrir un problème sur ce référentiel ou commenter le cours
+lui-même. On regarde les deux :).
+
+## Merci!
+
+Et comme toujours, merci beaucoup pour votre soutien et votre participation
+faisons ce que nous aimons !
+
+<3 Vos amis chez SymfonyCasts
