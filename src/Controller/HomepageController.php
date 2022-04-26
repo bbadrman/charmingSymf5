@@ -21,6 +21,14 @@ class HomepageController extends AbstractController
      */
     public function show($slug): Response
     {
-        return new Response(sprintf('salut c la deuxiement page est "%s"', ucwords(str_replace('-',' ', $slug))));
+
+         $answers =[
+             'make sur your cat is awesome and you can enjoy ',
+             'honestly awesome your cat is awesome and you can enjoy',
+             'maybe awesome your cat is awesome and you can enjoy',
+         ];         
+        return $this->render(  'question/show.html.twig',
+         [ 'question' =>  ucwords(str_replace('-',' ', $slug)),
+        'answers' => $answers,]);
     }
 }
