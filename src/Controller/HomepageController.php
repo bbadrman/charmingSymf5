@@ -7,6 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
+
 class HomepageController extends AbstractController
 {
     /**
@@ -27,9 +28,10 @@ class HomepageController extends AbstractController
     {
 
          $answers =[
-             'make sur your cat is awesome and you can enjoy ',
-             'honestly awesome your cat is awesome and you can enjoy',
-             'maybe awesome your cat is awesome and you can enjoy',
+             'Assurez-vous que votre chat est parfaitement immobile 🤣 ',
+             'Honnêtement, jaime mieux les chaussures à fourrure que mon chat',
+             'Peut-être génial votre chat est génial et vous pouvez en profiter',
+             'Maybe... try saying the spell backwards?'
          ];         
         return $this->render(  'question/show.html.twig',
          [ 'question' =>  ucwords(str_replace('-',' ', $slug)),
