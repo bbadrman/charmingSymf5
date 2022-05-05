@@ -138,3 +138,13 @@ Et comme toujours, merci beaucoup pour votre soutien et votre participation
 faisons ce que nous aimons !
 
 <3 Vos amis chez SymfonyCasts
+
+## install webpack encore :
+  'composer require encore'
+
+## Problem:An exception has been thrown during the rendering of a template ("Asset manifest file "/var/www/html/public/build/manifest.json" does not exist.").
+
+soulition : comment out the json_manifest_path by adding '#' in front of it and add '~' after 'assets:'
+exemple: framework:
+    assets: ~
+        #json_manifest_path: '%kernel.project_dir%/public/build/manifest.json'

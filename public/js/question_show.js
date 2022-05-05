@@ -8,11 +8,10 @@ $container.find('a').on('click', function(e) {
     var $link = $(e.currentTarget);
 
     $.ajax({
-        url:'/comments/10/vote'+$link.data('direction'),
+        url: '/comments/10/vote/' + $link.data('direction'),
         method: 'POST'
         
-    }).then(function(data){
-        
+    }).then(function (data) {
         $container.find('.js-vote-total').text(data.votes);
+      });
     });
-});
